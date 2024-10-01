@@ -1,0 +1,6 @@
+<div *ngIf="product">
+  <h1>{{ product.name }}</h1>
+  <h2>価格：{{ product.price * 144 }}</h2>
+  <h3>在庫：{{ product.stock }}</h3>
+  <p *ngIf="product.description">{{ product.description }}</p>
+</div>
